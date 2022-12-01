@@ -1,0 +1,259 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.full-website{
+    width: 1250px;
+    height: auto;
+    margin: auto;
+}
+.header-menu{
+      background-color:#fff;
+      padding: 7px 0px;
+}
+.header-menu ul{
+    text-align: center;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    margin: 0px px;
+    display: inline-block;
+    background-color: #48dbfb;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: .8s;
+    position: relative;
+    text-transform: capitalize;
+    
+}
+.header-menu ul li a:hover{
+      background-color: #fff;
+     
+}
+
+.header-menu ul li a:hover{
+       color: #48dbfb;
+     
+}
+.header-menu ul li a::before{
+    content: "";
+    border-bottom: 3px solid black;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 16px;
+    top: -10px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: ;
+    transition: .8s;
+}
+.header-menu ul li a:hover::before{
+    visibility: visible;
+    opacity: 1;
+    width: 60%;
+
+}
+.banner-section{
+    background-color: #48dbfb;
+    height: 300px;
+    padding-top: 50px;
+    color: #fff;
+}
+.banner1{
+    text-align: center;
+    padding-top: 50px;
+}
+.banner1 h1{
+    text-transform: capitalize;
+    font-size: 60px;
+}
+.banner1 h4{
+    font-size: 20px;
+}
+.banner1 button{
+    border: none;
+    font-size:20px;
+    padding: 10px 15px;
+    margin-top: 23px;
+    border-radius: 5px;
+    color: rgb(102, 100, 100);
+    position: relative;
+    z-index: 1;
+    transition: .8x; 
+}
+.banner1 button:hover{
+    color: #fff;
+}
+button::before{
+    content: "\17b";
+    font-family: "Font awesome";
+    /* font-weight: 600; */
+    font-size: 30px;
+   
+}
+ .banner1 button::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background-color:#fff ;
+    z-index: -1;
+    transition: .8s;
+}
+.banner1 button:hover::before{
+    background-color: black;
+    width: 100%;
+}
+.serbic{
+    text-align: center;
+    padding-top: 75px;
+}
+.serbic h2{
+    text-transform:uppercase;
+}
+.img-serbic{
+    background-color: #f7f9f9;
+    height: 700px;
+}
+
+.box{
+    display:flex ;
+    /* margin-top:40px; */
+    padding-top: 40px;
+    margin-left: 50px;
+}
+.img-box {
+/* width: 23%; */
+padding: 0px 20px;
+margin: 30px 0px;
+ overflow: hidden;  
+}
+.img-box img{
+    width: 250px;
+    height: 200px;
+}
+.img-box img{
+    transition: .8s;
+    overflow: hidden;
+}
+.img-box:hover img{
+    transform: rotate(360deg);
+
+}
+.img-box2:hover img{
+    transform: rotate(40deg) scale(1.1);
+}
+.img-box3:hover img{
+    transform: rotate(-30deg) scale(1.1);
+
+}
+.img-box4:hover img{
+    transform: rotate(-30deg) scale(1.1);
+
+}
+.box2{
+    margin-top:-80px;
+}
+.img-box5:hover img{
+    transform: rotate(20deg) scale(1.1);
+}
+.img-box6:hover img{
+    transform: rotate(-360deg);
+}
+.img-box7:hover img{
+    transform: rotate(3deg) scale(1.1);
+}
+.img-box8:hover img{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: #f7f9f9;
+}
+.footer1{
+    width: 1000px;
+    margin:  auto;
+    text-align: center;
+    padding-top: 0px;
+}
+.footer1 h1{
+    padding: 20px;
+}
+.footer1 p{
+    text-align: justify;
+}
+.stap{
+    width: 800px;
+    margin:auto ;
+    padding-top: 60px;
+    
+}
+.div1{
+   display: inline-block;
+   margin-left: 117px;
+   margin-bottom: 15px;
+}
+.div1 h3{
+    background-color: black;
+    color: #fff;
+    padding: 10px 12px;
+    display: inline-block;
+    transform: rotate(-40deg);
+    transition: .8s;
+}
+.div2{
+    display: inline-block;
+    margin-left: 160px;
+}
+.div3{
+    display: inline-block;
+    margin-left: 177px;
+    margin-top: 40px;
+}
+.div2 h3{
+    background-color: black;
+    color: #fff;
+    padding: 10px 12px;
+    display: inline-block;
+    transform: scale(1.1);
+    transition: .8s;
+    
+}
+.div2 h3:hover{
+    background-color: #48dbfb; 
+    transform:scale(1.2);
+
+}
+.div3 h3{
+    background-color: black;
+    color: #fff;
+    padding: 10px 12px;
+    display: inline-block;
+    transform: rotate(40deg);
+    transition: .8s;
+
+}
+.div3 h3:hover{
+    background-color: #48dbfb;
+    transform: rotate(0deg);
+}
+.div1 h3:hover{
+    background-color: #48dbfb;
+    transform: rotate(0deg);
+}
+.header-footer{
+    text-align: center;
+    background-color: rgb(57, 52, 52);
+    padding: 8px 0px;
+    color: #fff;
+}
