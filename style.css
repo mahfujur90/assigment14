@@ -92,13 +92,13 @@
 .banner1 button:hover{
     color: #fff;
 }
-button::before{
+/* button::before{
     content: "\17b";
     font-family: "Font awesome";
     /* font-weight: 600; */
     font-size: 30px;
    
-}
+} */
  .banner1 button::before{
     content: "";
     position: absolute;
